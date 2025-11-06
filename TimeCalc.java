@@ -9,7 +9,7 @@ public class TimeCalc {
         int addToH = addMin / 60; 
         
         hours=hours +addToH; 
-        minutes=minutes+addToMin;
+        minutes=minutes+addToMin; 
 
 
         if (minutes>59) { 
@@ -21,10 +21,11 @@ public class TimeCalc {
             hours=hours%24;
         }
 
-        
+        String min = String.format("%02d", minutes);
+        String hr = String.format("%02d", hours);
 
 
-        System.out.println(hours + ":"+ minutes);
+        System.out.println(hr + ":"+ min);
         
 
     }
