@@ -17,11 +17,11 @@ public class Cheers {
                      System.out.println("Give me an "+ first.charAt(i) + ": "+ first.charAt(i)+"!");
 
                 }  
-                        
+                   System.out.println("What does that spell?");
+
                 for(int z = 0;z<num;z++)       {
 
                      System.out.println(first+"!!!");
-
 
                 }
 
