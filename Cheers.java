@@ -16,11 +16,14 @@ public class Cheers {
 
 
                 for(int i = 0;i<count;i++)       {
-                        if (word.contains(first)) {
+                        if (word.contains(first)) 
+                        {
                               System.out.println("Give me an "+ first.charAt(i) + ": "+ first.charAt(i)+"!");   
                         }
-                     System.out.println("Give me a "+ first.charAt(i) + ": "+ first.charAt(i)+"!");
-
+                     else
+                        {
+                        System.out.println("Give me a "+ first.charAt(i) + ": "+ first.charAt(i)+"!");
+                        }
                 }  
                    System.out.println("What does that spell?");
 
