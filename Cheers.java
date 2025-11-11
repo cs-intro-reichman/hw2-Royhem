@@ -12,9 +12,14 @@ public class Cheers {
                 String first = args[0];
  		int num = Integer.parseInt(args[1]);
                 int count = first.length();
+                String word = "AEFHILMNORaefhilmnor";
+
 
                 for(int i = 0;i<count;i++)       {
-                     System.out.println("Give me an "+ first.charAt(i) + ": "+ first.charAt(i)+"!");
+                        if (word.contains(first)) {
+                              System.out.println("Give me an "+ first.charAt(i) + ": "+ first.charAt(i)+"!");   
+                        }
+                     System.out.println("Give me a "+ first.charAt(i) + ": "+ first.charAt(i)+"!");
 
                 }  
                    System.out.println("What does that spell?");
@@ -25,6 +30,10 @@ public class Cheers {
 
                 }
 
+
+
+
+    
 
         }
 }
