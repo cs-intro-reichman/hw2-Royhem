@@ -18,7 +18,7 @@ public class Cheers {
                 for(int i = 0;i<count;i++)   
                     {
                         
-                                if (word.indexOf(first.charAt(i))>0) 
+                                if (word.indexOf(first.charAt(i))!=-1) 
                                 {
                                         System.out.println("Give me an "+ first.charAt(i) + ": "+ first.charAt(i)+"!");  
  
