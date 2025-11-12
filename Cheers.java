@@ -9,10 +9,10 @@ Great work boaz!
 public class Cheers {
         public static void main(String[] args) {
 
-                String first = args[0];
+                String first = args[0].toUpperCase();
  		int num = Integer.parseInt(args[1]);
                 int count = first.length();
-                String word = "AEFHILMNORaefhilmnor";
+                String word = "AEFHILMNOR";
 
 
                 for(int i = 0;i<count;i++)   
@@ -22,8 +22,8 @@ public class Cheers {
                                 if (word.charAt(j)==first.charAt(i)) 
                                 {
                                         System.out.println("Give me an "+ first.charAt(i) + ": "+ first.charAt(i)+"!");  
-                                         System.out.println("Give me a  "+ first.charAt(i) + ": "+ first.charAt(i)+"!");  
-                                         System.out.println("Give me a  "+ first.charAt(i) + ": "+ first.charAt(i)+"!");    
+                                         //System.out.println("Give me a  "+ first.charAt(i) + ": "+ first.charAt(i)+"!");  
+                                        // System.out.println("Give me a  "+ first.charAt(i) + ": "+ first.charAt(i)+"!");    
  
                                 }
                                 
