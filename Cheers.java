@@ -22,8 +22,6 @@ public class Cheers {
                                 if (word.charAt(j)==first.charAt(i)) 
                                 {
                                         System.out.println("Give me an "+ first.charAt(i) + ": "+ first.charAt(i)+"!");  
-                                         System.out.println("Give me a  "+ first.charAt(i) + ": "+ first.charAt(i)+"!");  
-                                        // System.out.println("Give me a  "+ first.charAt(i) + ": "+ first.charAt(i)+"!");    
  
                                 }
                                 
@@ -46,4 +44,3 @@ public class Cheers {
 
         }
 }
-
