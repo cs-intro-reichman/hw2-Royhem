@@ -17,21 +17,20 @@ public class Cheers {
 
                 for(int i = 0;i<count;i++)   
                     {
-                        for(int j = 0;j<word.length();j++)
-                        {
-                                if (word.charAt(j)==first.charAt(i)) 
+                        
+                                if (word.indexOf(first.charAt(i))>0) 
                                 {
                                         System.out.println("Give me an "+ first.charAt(i) + ": "+ first.charAt(i)+"!");  
  
-                                }else
+                                }
+                                else
                                 {
-                                        System.out.println("Give me a  "+ first.charAt(i) + ": "+ first.charAt(i)+"!");
+                                       System.out.println("Give me a  "+ first.charAt(i) + ": "+ first.charAt(i)+"!");
 
                                 }
-                                
-                        }
+                    }  
 
-                }  
+
                    System.out.println("What does that spell?");
 
                 for(int z = 0;z<num;z++)       {
