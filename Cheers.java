@@ -15,15 +15,18 @@ public class Cheers {
                 String word = "AEFHILMNORaefhilmnor";
 
 
-                for(int i = 0;i<count;i++)       {
-                        if (word.contains(first)) 
+                for(int i = 0;i<count;i++)   
+                    {
+                        for(int j = 0;j<word.length();j++)
                         {
-                              System.out.println("Give me an "+ first.charAt(i) + ": "+ first.charAt(i)+"!");   
+                                if (word.charAt(j)==first.charAt(i)) 
+                                {
+                                        System.out.println("Give me an "+ first.charAt(i) + ": "+ first.charAt(i)+"!");   
+                                }
+                                
                         }
-                     else
-                        {
-                        System.out.println("Give me a "+ first.charAt(i) + ": "+ first.charAt(i)+"!");
-                        }
+
+                          System.out.println("Give me a  "+ first.charAt(i) + ": "+ first.charAt(i)+"!");
                 }  
                    System.out.println("What does that spell?");
 
