@@ -12,7 +12,7 @@ public class Cheers {
                 String first = args[0].toUpperCase();
  		int num = Integer.parseInt(args[1]);
                 int count = first.length();
-                String word = "AEFHILMNOR";
+                String word = "AEFHILMNORSIX";
 
 
                 for(int i = 0;i<count;i++)   
@@ -25,7 +25,7 @@ public class Cheers {
                                 }
                                 else
                                 {
-                                       System.out.println("Give me a "+ first.charAt(i) + ": "+ first.charAt(i)+"!");
+                                       System.out.println("Give me a  "+ first.charAt(i) + ": "+ first.charAt(i)+"!");
 
                                 }
                     }  
@@ -46,4 +46,3 @@ public class Cheers {
 
         }
 }
-
