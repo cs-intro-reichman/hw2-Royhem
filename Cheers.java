@@ -25,7 +25,7 @@ public class Cheers {
                                 }
                                 else
                                 {
-                                       System.out.println("Give me a  "+ first.charAt(i) + ": "+ first.charAt(i)+"!");
+                                       System.out.println("Give me a "+ first.charAt(i) + ": "+ first.charAt(i)+"!");
 
                                 }
                     }  
@@ -46,3 +46,4 @@ public class Cheers {
 
         }
 }
+
